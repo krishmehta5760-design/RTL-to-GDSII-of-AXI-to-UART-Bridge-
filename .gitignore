@@ -1,0 +1,9 @@
+# Simulation outputs
+*.vcd
+sim_*
+*.vvp
+# OpenLane runs (large files)
+runs/
+# OS files
+.DS_Store
+*.swp

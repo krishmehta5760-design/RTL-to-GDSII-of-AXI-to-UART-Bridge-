@@ -1,0 +1,25 @@
+{
+    "DESIGN_NAME": "axi2uart_bridge_top",
+    "VERILOG_FILES": "dir::src/*.v",
+    "CLOCK_PORT": "s_axi_aclk",
+    "CLOCK_PERIOD": 10.0,
+    "BASE_SDC_FILE": "dir::constraints/axi2uart_bridge.sdc",
+    "FP_SIZING": "absolute",
+    "DIE_AREA": "0 0 200 200",
+    "FP_PDN_AUTO_ADJUST": true,
+    "PL_TARGET_DENSITY_PCT": 40,
+    "GPL_CELL_PADDING": 4,
+    "DPL_CELL_PADDING": 4,
+    "ROUTING_CORES": 4,
+    "RUN_HEURISTIC_DIODE_INSERTION": true,
+    "DIODE_ON_PORTS": "in",
+    "GRT_REPAIR_ANTENNAS": true,
+    "RUN_CVC": false,
+    "pdk::sky130A": {
+        "MAX_FANOUT_CONSTRAINT": 6,
+        "FP_CORE_UTIL": 35,
+        "scl::sky130_fd_sc_hd": {
+            "CLOCK_PERIOD": 10.0
+        }
+    }
+}
