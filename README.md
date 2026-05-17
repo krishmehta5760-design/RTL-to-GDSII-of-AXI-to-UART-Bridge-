@@ -22,6 +22,9 @@ Achieved **DRC/LVS clean signoff** with positive timing slack across multiple cl
 
 ## 📊 Physical Implementation Results (OpenLane / Sky130)
 
+<img width="1006" height="890" alt="image" src="https://github.com/user-attachments/assets/66a59bad-fd7a-44fe-8086-c73e3acb2219" />
+
+
 The design was hardened using the OpenLane v1 flow. 
 
 | Metric | Result |
