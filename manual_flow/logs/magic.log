@@ -1,0 +1,747 @@
+
+Magic 8.3 revision 466 - Compiled on Thu Mar 21 17:31:46 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Using technology "sky130A", version 1.0.466-0-gbdc9412
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: sky130_fd_sc_hd
+Reading "sky130_fd_sc_hd__or4bb_4".
+Reading "sky130_fd_sc_hd__probe_p_8".
+Reading "sky130_fd_sc_hd__probec_p_8".
+Reading "sky130_fd_sc_hd__sdfbbn_1".
+Reading "sky130_fd_sc_hd__sdfsbp_2".
+Reading "sky130_fd_sc_hd__sdfsbp_1".
+Reading "sky130_fd_sc_hd__sdfrtp_4".
+Reading "sky130_fd_sc_hd__sdfrtp_2".
+Reading "sky130_fd_sc_hd__sdfrtp_1".
+Reading "sky130_fd_sc_hd__sdfrtn_1".
+Reading "sky130_fd_sc_hd__sdfrbp_2".
+Reading "sky130_fd_sc_hd__sdfrbp_1".
+Reading "sky130_fd_sc_hd__sdfbbp_1".
+Reading "sky130_fd_sc_hd__sdfbbn_2".
+Reading "sky130_fd_sc_hd__sdfstp_1".
+Reading "sky130_fd_sc_hd__sdfstp_2".
+Reading "sky130_fd_sc_hd__sdfstp_4".
+Reading "sky130_fd_sc_hd__sdfxbp_1".
+Reading "sky130_fd_sc_hd__sdfxbp_2".
+Reading "sky130_fd_sc_hd__sdfxtp_1".
+Reading "sky130_fd_sc_hd__sdfxtp_2".
+Reading "sky130_fd_sc_hd__sdfxtp_4".
+Reading "sky130_fd_sc_hd__sdlclkp_1".
+Reading "sky130_fd_sc_hd__sdlclkp_2".
+Reading "sky130_fd_sc_hd__sdlclkp_4".
+Reading "sky130_fd_sc_hd__sedfxbp_1".
+Reading "sky130_fd_sc_hd__sedfxbp_2".
+Reading "sky130_fd_sc_hd__sedfxtp_1".
+Reading "sky130_fd_sc_hd__sedfxtp_2".
+Reading "sky130_fd_sc_hd__sedfxtp_4".
+Reading "sky130_fd_sc_hd__tap_1".
+Reading "sky130_fd_sc_hd__tap_2".
+Reading "sky130_fd_sc_hd__xor2_1".
+Reading "sky130_fd_sc_hd__xnor3_4".
+Reading "sky130_fd_sc_hd__xnor3_2".
+Reading "sky130_fd_sc_hd__xnor3_1".
+Reading "sky130_fd_sc_hd__xnor2_4".
+Reading "sky130_fd_sc_hd__xnor2_2".
+Reading "sky130_fd_sc_hd__xnor2_1".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "sky130_fd_sc_hd__tapvgnd_1".
+Reading "sky130_fd_sc_hd__tapvgnd2_1".
+Reading "sky130_fd_sc_hd__xor2_2".
+Reading "sky130_fd_sc_hd__xor2_4".
+Reading "sky130_fd_sc_hd__xor3_1".
+Reading "sky130_fd_sc_hd__xor3_2".
+Reading "sky130_fd_sc_hd__xor3_4".
+Reading "sky130_fd_sc_hd__o41a_4".
+Reading "sky130_fd_sc_hd__o41ai_1".
+Reading "sky130_fd_sc_hd__o41ai_2".
+Reading "sky130_fd_sc_hd__o41ai_4".
+Reading "sky130_fd_sc_hd__o211a_1".
+Reading "sky130_fd_sc_hd__o211a_2".
+Reading "sky130_fd_sc_hd__o211a_4".
+Reading "sky130_fd_sc_hd__o211ai_1".
+Reading "sky130_fd_sc_hd__o211ai_2".
+Reading "sky130_fd_sc_hd__o211ai_4".
+Reading "sky130_fd_sc_hd__o221a_1".
+Reading "sky130_fd_sc_hd__o221a_2".
+Reading "sky130_fd_sc_hd__o221a_4".
+Reading "sky130_fd_sc_hd__o221ai_1".
+Reading "sky130_fd_sc_hd__o221ai_2".
+Reading "sky130_fd_sc_hd__o221ai_4".
+Reading "sky130_fd_sc_hd__o2111a_4".
+Reading "sky130_fd_sc_hd__o2111a_2".
+Reading "sky130_fd_sc_hd__o2111a_1".
+Reading "sky130_fd_sc_hd__o311ai_4".
+Reading "sky130_fd_sc_hd__o311ai_2".
+Reading "sky130_fd_sc_hd__o311ai_1".
+Reading "sky130_fd_sc_hd__o311ai_0".
+Reading "sky130_fd_sc_hd__o311a_4".
+Reading "sky130_fd_sc_hd__o311a_2".
+Reading "sky130_fd_sc_hd__o311a_1".
+Reading "sky130_fd_sc_hd__o2111ai_1".
+Reading "sky130_fd_sc_hd__o2111ai_2".
+Reading "sky130_fd_sc_hd__o2111ai_4".
+Reading "sky130_fd_sc_hd__or2_0".
+Reading "sky130_fd_sc_hd__or2_1".
+Reading "sky130_fd_sc_hd__or2_2".
+Reading "sky130_fd_sc_hd__or2_4".
+Reading "sky130_fd_sc_hd__or2b_1".
+Reading "sky130_fd_sc_hd__or2b_2".
+Reading "sky130_fd_sc_hd__or2b_4".
+Reading "sky130_fd_sc_hd__or3_1".
+Reading "sky130_fd_sc_hd__or3_2".
+Reading "sky130_fd_sc_hd__or3_4".
+Reading "sky130_fd_sc_hd__or3b_1".
+Reading "sky130_fd_sc_hd__or3b_2".
+Reading "sky130_fd_sc_hd__or3b_4".
+Reading "sky130_fd_sc_hd__or4_1".
+Reading "sky130_fd_sc_hd__or4_2".
+Reading "sky130_fd_sc_hd__or4_4".
+Reading "sky130_fd_sc_hd__or4b_1".
+Reading "sky130_fd_sc_hd__or4b_2".
+Reading "sky130_fd_sc_hd__or4b_4".
+Reading "sky130_fd_sc_hd__or4bb_1".
+Reading "sky130_fd_sc_hd__or4bb_2".
+Reading "sky130_fd_sc_hd__nor3b_2".
+Reading "sky130_fd_sc_hd__nor3b_4".
+Reading "sky130_fd_sc_hd__nor4_1".
+Reading "sky130_fd_sc_hd__nor4_2".
+Reading "sky130_fd_sc_hd__nor4_4".
+Reading "sky130_fd_sc_hd__nor4b_1".
+Reading "sky130_fd_sc_hd__nor4b_2".
+Reading "sky130_fd_sc_hd__nor4b_4".
+Reading "sky130_fd_sc_hd__nor4bb_1".
+Reading "sky130_fd_sc_hd__nor4bb_2".
+Reading "sky130_fd_sc_hd__nor4bb_4".
+Moving label "k" from mvpsubdiff to ndiff in cell sky130_fd_sc_hd__nor4bb_4.
+Reading "sky130_fd_sc_hd__o2bb2a_1".
+Reading "sky130_fd_sc_hd__o2bb2a_2".
+Reading "sky130_fd_sc_hd__o2bb2a_4".
+Reading "sky130_fd_sc_hd__o2bb2ai_1".
+Reading "sky130_fd_sc_hd__o2bb2ai_2".
+Reading "sky130_fd_sc_hd__o2bb2ai_4".
+Reading "sky130_fd_sc_hd__o21a_1".
+Reading "sky130_fd_sc_hd__o21a_2".
+Reading "sky130_fd_sc_hd__o21ai_2".
+Reading "sky130_fd_sc_hd__o21ai_1".
+Reading "sky130_fd_sc_hd__o21ai_0".
+Reading "sky130_fd_sc_hd__o21a_4".
+Reading "sky130_fd_sc_hd__o21ba_2".
+Reading "sky130_fd_sc_hd__o21ba_1".
+Reading "sky130_fd_sc_hd__o21ai_4".
+Reading "sky130_fd_sc_hd__o21bai_2".
+Reading "sky130_fd_sc_hd__o21bai_1".
+Reading "sky130_fd_sc_hd__o21ba_4".
+Reading "sky130_fd_sc_hd__o21bai_4".
+Reading "sky130_fd_sc_hd__o22a_1".
+Reading "sky130_fd_sc_hd__o22a_2".
+Reading "sky130_fd_sc_hd__o22a_4".
+Reading "sky130_fd_sc_hd__o22ai_1".
+Reading "sky130_fd_sc_hd__o22ai_2".
+Reading "sky130_fd_sc_hd__o22ai_4".
+Reading "sky130_fd_sc_hd__o31a_1".
+Reading "sky130_fd_sc_hd__o31a_2".
+Reading "sky130_fd_sc_hd__o31a_4".
+Reading "sky130_fd_sc_hd__o31ai_1".
+Reading "sky130_fd_sc_hd__o31ai_2".
+Reading "sky130_fd_sc_hd__o31ai_4".
+Reading "sky130_fd_sc_hd__o32a_1".
+Reading "sky130_fd_sc_hd__o32a_2".
+Reading "sky130_fd_sc_hd__o32a_4".
+Reading "sky130_fd_sc_hd__o32ai_1".
+Reading "sky130_fd_sc_hd__o32ai_2".
+Reading "sky130_fd_sc_hd__o32ai_4".
+Reading "sky130_fd_sc_hd__o41a_1".
+Reading "sky130_fd_sc_hd__o41a_2".
+Reading "sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_1".
+CIF file read warning: CIF style sky130(): units rescaled by factor of 5 / 1
+Reading "sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_2".
+Reading "sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_4".
+Reading "sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4".
+Reading "sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_1".
+Reading "sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_2".
+Reading "sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_4".
+Reading "sky130_fd_sc_hd__nor2_2".
+Reading "sky130_fd_sc_hd__nand2_2".
+Reading "sky130_fd_sc_hd__inv_2".
+Reading "sky130_fd_sc_hd__conb_1".
+Reading "sky130_fd_sc_hd__macro_sparecell".
+Reading "sky130_fd_sc_hd__maj3_1".
+Reading "sky130_fd_sc_hd__maj3_2".
+Reading "sky130_fd_sc_hd__maj3_4".
+Reading "sky130_fd_sc_hd__mux2_1".
+Reading "sky130_fd_sc_hd__mux2_2".
+Reading "sky130_fd_sc_hd__mux2_4".
+Reading "sky130_fd_sc_hd__mux2_8".
+Reading "sky130_fd_sc_hd__mux2i_1".
+Reading "sky130_fd_sc_hd__mux2i_2".
+Reading "sky130_fd_sc_hd__nand2_1".
+Reading "sky130_fd_sc_hd__nand2_4".
+Reading "sky130_fd_sc_hd__nand2_8".
+Reading "sky130_fd_sc_hd__nand2b_1".
+Reading "sky130_fd_sc_hd__mux2i_4".
+Reading "sky130_fd_sc_hd__mux4_1".
+Reading "sky130_fd_sc_hd__mux4_2".
+Reading "sky130_fd_sc_hd__mux4_4".
+Reading "sky130_fd_sc_hd__nand2b_2".
+Reading "sky130_fd_sc_hd__nand2b_4".
+Reading "sky130_fd_sc_hd__nand3_1".
+Reading "sky130_fd_sc_hd__nand3_2".
+Reading "sky130_fd_sc_hd__nand3_4".
+Reading "sky130_fd_sc_hd__nand3b_1".
+Reading "sky130_fd_sc_hd__nand3b_2".
+Reading "sky130_fd_sc_hd__nand3b_4".
+Reading "sky130_fd_sc_hd__nand4_1".
+Reading "sky130_fd_sc_hd__nand4_2".
+Reading "sky130_fd_sc_hd__nand4_4".
+Reading "sky130_fd_sc_hd__nand4b_1".
+Reading "sky130_fd_sc_hd__nand4b_2".
+Reading "sky130_fd_sc_hd__nand4b_4".
+Reading "sky130_fd_sc_hd__nand4bb_1".
+Reading "sky130_fd_sc_hd__nand4bb_2".
+Reading "sky130_fd_sc_hd__nand4bb_4".
+Reading "sky130_fd_sc_hd__nor2_1".
+Reading "sky130_fd_sc_hd__nor2_4".
+Reading "sky130_fd_sc_hd__nor2_8".
+Reading "sky130_fd_sc_hd__nor2b_1".
+Reading "sky130_fd_sc_hd__nor2b_2".
+Reading "sky130_fd_sc_hd__nor2b_4".
+Reading "sky130_fd_sc_hd__nor3_1".
+Reading "sky130_fd_sc_hd__nor3_2".
+Reading "sky130_fd_sc_hd__nor3_4".
+Reading "sky130_fd_sc_hd__nor3b_1".
+Reading "sky130_fd_sc_hd__einvp_1".
+Reading "sky130_fd_sc_hd__einvp_2".
+Reading "sky130_fd_sc_hd__einvp_4".
+Reading "sky130_fd_sc_hd__einvp_8".
+Reading "sky130_fd_sc_hd__fa_1".
+Reading "sky130_fd_sc_hd__fa_2".
+Reading "sky130_fd_sc_hd__fa_4".
+Reading "sky130_fd_sc_hd__fah_1".
+Reading "sky130_fd_sc_hd__fahcin_1".
+Reading "sky130_fd_sc_hd__fahcon_1".
+Reading "sky130_fd_sc_hd__fill_1".
+Reading "sky130_fd_sc_hd__fill_2".
+Reading "sky130_fd_sc_hd__fill_4".
+Reading "sky130_fd_sc_hd__fill_8".
+Reading "sky130_fd_sc_hd__ha_1".
+Reading "sky130_fd_sc_hd__ha_2".
+Reading "sky130_fd_sc_hd__ha_4".
+Reading "sky130_fd_sc_hd__inv_1".
+Reading "sky130_fd_sc_hd__inv_16".
+Reading "sky130_fd_sc_hd__inv_12".
+Reading "sky130_fd_sc_hd__inv_8".
+Reading "sky130_fd_sc_hd__inv_6".
+Reading "sky130_fd_sc_hd__inv_4".
+Reading "sky130_fd_sc_hd__lpflow_clkbufkapwr_4".
+Reading "sky130_fd_sc_hd__lpflow_clkbufkapwr_2".
+Reading "sky130_fd_sc_hd__lpflow_clkbufkapwr_1".
+Reading "sky130_fd_sc_hd__lpflow_bleeder_1".
+Reading "sky130_fd_sc_hd__lpflow_clkbufkapwr_8".
+Reading "sky130_fd_sc_hd__lpflow_clkbufkapwr_16".
+Reading "sky130_fd_sc_hd__lpflow_clkinvkapwr_1".
+Reading "sky130_fd_sc_hd__lpflow_clkinvkapwr_2".
+Reading "sky130_fd_sc_hd__lpflow_clkinvkapwr_4".
+Reading "sky130_fd_sc_hd__lpflow_clkinvkapwr_8".
+Reading "sky130_fd_sc_hd__lpflow_clkinvkapwr_16".
+Reading "sky130_fd_sc_hd__lpflow_decapkapwr_3".
+Reading "sky130_fd_sc_hd__lpflow_decapkapwr_4".
+Reading "sky130_fd_sc_hd__lpflow_decapkapwr_6".
+Reading "sky130_fd_sc_hd__lpflow_inputiso0n_1".
+Reading "sky130_fd_sc_hd__lpflow_decapkapwr_12".
+Reading "sky130_fd_sc_hd__lpflow_decapkapwr_8".
+Reading "sky130_fd_sc_hd__lpflow_inputisolatch_1".
+Reading "sky130_fd_sc_hd__lpflow_inputiso1p_1".
+Reading "sky130_fd_sc_hd__lpflow_inputiso1n_1".
+Reading "sky130_fd_sc_hd__lpflow_inputiso0p_1".
+Reading "sky130_fd_sc_hd__lpflow_isobufsrc_4".
+Reading "sky130_fd_sc_hd__lpflow_isobufsrc_2".
+Reading "sky130_fd_sc_hd__lpflow_isobufsrc_1".
+Reading "sky130_fd_sc_hd__lpflow_isobufsrc_8".
+Reading "sky130_fd_sc_hd__lpflow_isobufsrc_16".
+Reading "sky130_fd_sc_hd__lpflow_isobufsrckapwr_16".
+Reading "sky130_fd_sc_hd__dfrtp_2".
+Reading "sky130_fd_sc_hd__dfrtp_4".
+Reading "sky130_fd_sc_hd__dfsbp_1".
+Reading "sky130_fd_sc_hd__dfsbp_2".
+Reading "sky130_fd_sc_hd__dfstp_1".
+Reading "sky130_fd_sc_hd__dfstp_2".
+Reading "sky130_fd_sc_hd__dfstp_4".
+Reading "sky130_fd_sc_hd__dfxbp_1".
+Reading "sky130_fd_sc_hd__dfxbp_2".
+Reading "sky130_fd_sc_hd__dfxtp_1".
+Reading "sky130_fd_sc_hd__dfxtp_2".
+Reading "sky130_fd_sc_hd__dfxtp_4".
+Reading "sky130_fd_sc_hd__diode_2".
+Reading "sky130_fd_sc_hd__dlclkp_1".
+Reading "sky130_fd_sc_hd__dlclkp_2".
+Reading "sky130_fd_sc_hd__dlclkp_4".
+Reading "sky130_fd_sc_hd__dlrbn_1".
+Reading "sky130_fd_sc_hd__dlrbp_1".
+Reading "sky130_fd_sc_hd__dlrtn_1".
+Reading "sky130_fd_sc_hd__dlrtn_2".
+Reading "sky130_fd_sc_hd__dlrbn_2".
+Reading "sky130_fd_sc_hd__dlrbp_2".
+Reading "sky130_fd_sc_hd__dlrtn_4".
+Reading "sky130_fd_sc_hd__dlrtp_1".
+Reading "sky130_fd_sc_hd__dlrtp_2".
+Reading "sky130_fd_sc_hd__dlrtp_4".
+Reading "sky130_fd_sc_hd__dlxbn_1".
+Reading "sky130_fd_sc_hd__dlxbn_2".
+Reading "sky130_fd_sc_hd__dlxbp_1".
+Reading "sky130_fd_sc_hd__dlxtn_1".
+Reading "sky130_fd_sc_hd__dlxtn_2".
+Reading "sky130_fd_sc_hd__dlxtn_4".
+Reading "sky130_fd_sc_hd__dlxtp_1".
+Reading "sky130_fd_sc_hd__dlygate4sd1_1".
+Reading "sky130_fd_sc_hd__dlygate4sd2_1".
+Reading "sky130_fd_sc_hd__dlygate4sd3_1".
+Reading "sky130_fd_sc_hd__dlymetal6s2s_1".
+Reading "sky130_fd_sc_hd__dlymetal6s4s_1".
+Reading "sky130_fd_sc_hd__dlymetal6s6s_1".
+Reading "sky130_fd_sc_hd__ebufn_1".
+Reading "sky130_fd_sc_hd__ebufn_2".
+Reading "sky130_fd_sc_hd__ebufn_4".
+Reading "sky130_fd_sc_hd__einvn_0".
+Reading "sky130_fd_sc_hd__einvn_1".
+Reading "sky130_fd_sc_hd__einvn_2".
+Reading "sky130_fd_sc_hd__einvn_4".
+Reading "sky130_fd_sc_hd__ebufn_8".
+Reading "sky130_fd_sc_hd__edfxbp_1".
+Reading "sky130_fd_sc_hd__edfxtp_1".
+Reading "sky130_fd_sc_hd__einvn_8".
+Reading "sky130_fd_sc_hd__and4_4".
+Reading "sky130_fd_sc_hd__and4b_1".
+Reading "sky130_fd_sc_hd__and4b_2".
+Reading "sky130_fd_sc_hd__and4b_4".
+Reading "sky130_fd_sc_hd__and4bb_1".
+Reading "sky130_fd_sc_hd__and4bb_2".
+Reading "sky130_fd_sc_hd__and4bb_4".
+Reading "sky130_fd_sc_hd__buf_1".
+Reading "sky130_fd_sc_hd__buf_2".
+Reading "sky130_fd_sc_hd__buf_4".
+Reading "sky130_fd_sc_hd__buf_6".
+Reading "sky130_fd_sc_hd__buf_8".
+Reading "sky130_fd_sc_hd__buf_12".
+Reading "sky130_fd_sc_hd__buf_16".
+Reading "sky130_fd_sc_hd__bufbuf_8".
+Reading "sky130_fd_sc_hd__clkdlybuf4s15_2".
+Reading "sky130_fd_sc_hd__clkdlybuf4s15_1".
+Reading "sky130_fd_sc_hd__clkbuf_16".
+Reading "sky130_fd_sc_hd__clkbuf_8".
+Reading "sky130_fd_sc_hd__clkbuf_4".
+Reading "sky130_fd_sc_hd__clkbuf_2".
+Reading "sky130_fd_sc_hd__clkbuf_1".
+Reading "sky130_fd_sc_hd__bufinv_16".
+Reading "sky130_fd_sc_hd__bufinv_8".
+Reading "sky130_fd_sc_hd__bufbuf_16".
+Reading "sky130_fd_sc_hd__clkdlybuf4s18_1".
+Reading "sky130_fd_sc_hd__clkdlybuf4s18_2".
+Reading "sky130_fd_sc_hd__clkdlybuf4s25_1".
+Reading "sky130_fd_sc_hd__clkdlybuf4s25_2".
+Reading "sky130_fd_sc_hd__clkdlybuf4s50_1".
+Reading "sky130_fd_sc_hd__clkdlybuf4s50_2".
+Reading "sky130_fd_sc_hd__clkinv_1".
+Reading "sky130_fd_sc_hd__clkinv_2".
+Reading "sky130_fd_sc_hd__clkinv_4".
+Reading "sky130_fd_sc_hd__dfbbn_1".
+Reading "sky130_fd_sc_hd__decap_12".
+Reading "sky130_fd_sc_hd__decap_8".
+Reading "sky130_fd_sc_hd__decap_6".
+Reading "sky130_fd_sc_hd__decap_4".
+Reading "sky130_fd_sc_hd__decap_3".
+Reading "sky130_fd_sc_hd__clkinvlp_4".
+Reading "sky130_fd_sc_hd__clkinvlp_2".
+Reading "sky130_fd_sc_hd__clkinv_16".
+Reading "sky130_fd_sc_hd__clkinv_8".
+Reading "sky130_fd_sc_hd__dfbbn_2".
+Reading "sky130_fd_sc_hd__dfbbp_1".
+Reading "sky130_fd_sc_hd__dfrbp_1".
+Reading "sky130_fd_sc_hd__dfrbp_2".
+Reading "sky130_fd_sc_hd__dfrtn_1".
+Reading "sky130_fd_sc_hd__dfrtp_1".
+Reading "sky130_fd_sc_hd__a32oi_1".
+Reading "sky130_fd_sc_hd__a32oi_2".
+Reading "sky130_fd_sc_hd__a32oi_4".
+Reading "sky130_fd_sc_hd__a41o_1".
+Reading "sky130_fd_sc_hd__a41o_2".
+Reading "sky130_fd_sc_hd__a41o_4".
+Reading "sky130_fd_sc_hd__a41oi_1".
+Reading "sky130_fd_sc_hd__a41oi_2".
+Reading "sky130_fd_sc_hd__a41oi_4".
+Reading "sky130_fd_sc_hd__a221o_4".
+Reading "sky130_fd_sc_hd__a221o_2".
+Reading "sky130_fd_sc_hd__a221oi_1".
+Reading "sky130_fd_sc_hd__a211oi_2".
+Reading "sky130_fd_sc_hd__a211oi_1".
+Reading "sky130_fd_sc_hd__a211o_4".
+Reading "sky130_fd_sc_hd__a211o_2".
+Reading "sky130_fd_sc_hd__a211o_1".
+Reading "sky130_fd_sc_hd__a221o_1".
+Reading "sky130_fd_sc_hd__a211oi_4".
+Reading "sky130_fd_sc_hd__a221oi_2".
+Reading "sky130_fd_sc_hd__a221oi_4".
+Reading "sky130_fd_sc_hd__a222oi_1".
+Reading "sky130_fd_sc_hd__a311o_1".
+Reading "sky130_fd_sc_hd__a311o_2".
+Reading "sky130_fd_sc_hd__a311o_4".
+Reading "sky130_fd_sc_hd__a311oi_1".
+Reading "sky130_fd_sc_hd__a311oi_2".
+Reading "sky130_fd_sc_hd__a311oi_4".
+Reading "sky130_fd_sc_hd__a2111o_1".
+Reading "sky130_fd_sc_hd__a2111o_2".
+Reading "sky130_fd_sc_hd__a2111o_4".
+Reading "sky130_fd_sc_hd__a2111oi_0".
+Reading "sky130_fd_sc_hd__a2111oi_1".
+CIF file read warning: Input off lambda grid by 2/5; snapped to grid.
+Reading "sky130_fd_sc_hd__a2111oi_2".
+Reading "sky130_fd_sc_hd__a2111oi_4".
+Reading "sky130_fd_sc_hd__and2_0".
+Reading "sky130_fd_sc_hd__and2_1".
+Reading "sky130_fd_sc_hd__and2b_1".
+Reading "sky130_fd_sc_hd__and2_4".
+Reading "sky130_fd_sc_hd__and2_2".
+Reading "sky130_fd_sc_hd__and2b_4".
+Reading "sky130_fd_sc_hd__and2b_2".
+Reading "sky130_fd_sc_hd__and3_4".
+Reading "sky130_fd_sc_hd__and3_2".
+Reading "sky130_fd_sc_hd__and3_1".
+Reading "sky130_fd_sc_hd__and3b_2".
+Reading "sky130_fd_sc_hd__and3b_1".
+Reading "sky130_fd_sc_hd__and3b_4".
+Reading "sky130_fd_sc_hd__and4_1".
+Reading "sky130_fd_sc_hd__and4_2".
+Reading "sky130_ef_sc_hd__decap_12".
+Reading "sky130_ef_sc_hd__fill_4".
+Reading "sky130_ef_sc_hd__fill_8".
+Reading "sky130_ef_sc_hd__fill_12".
+Reading "sky130_fd_sc_hd__a2bb2o_1".
+Reading "sky130_fd_sc_hd__a2bb2o_2".
+Reading "sky130_fd_sc_hd__a2bb2o_4".
+Reading "sky130_fd_sc_hd__a2bb2oi_1".
+Reading "sky130_fd_sc_hd__a2bb2oi_2".
+Reading "sky130_fd_sc_hd__a2bb2oi_4".
+Reading "sky130_fd_sc_hd__a21bo_1".
+Reading "sky130_fd_sc_hd__a21bo_2".
+Reading "sky130_fd_sc_hd__a21bo_4".
+Reading "sky130_fd_sc_hd__a21boi_0".
+Reading "sky130_fd_sc_hd__a21boi_1".
+Reading "sky130_fd_sc_hd__a21boi_2".
+Reading "sky130_fd_sc_hd__a21boi_4".
+Reading "sky130_fd_sc_hd__a21o_1".
+Reading "sky130_fd_sc_hd__a21o_2".
+Reading "sky130_fd_sc_hd__a22o_1".
+Reading "sky130_fd_sc_hd__a21oi_4".
+Reading "sky130_fd_sc_hd__a21oi_2".
+Reading "sky130_fd_sc_hd__a22oi_2".
+Reading "sky130_fd_sc_hd__a22oi_1".
+Reading "sky130_fd_sc_hd__a22o_4".
+Reading "sky130_fd_sc_hd__a22o_2".
+Reading "sky130_fd_sc_hd__a22oi_4".
+Reading "sky130_fd_sc_hd__a21oi_1".
+Reading "sky130_fd_sc_hd__a21o_4".
+Reading "sky130_fd_sc_hd__a31o_1".
+Reading "sky130_fd_sc_hd__a31o_2".
+Reading "sky130_fd_sc_hd__a31o_4".
+Reading "sky130_fd_sc_hd__a31oi_1".
+Reading "sky130_fd_sc_hd__a31oi_2".
+Reading "sky130_fd_sc_hd__a31oi_4".
+Reading "sky130_fd_sc_hd__a32o_1".
+Reading "sky130_fd_sc_hd__a32o_2".
+Reading "sky130_fd_sc_hd__a32o_4".
+Reading DEF data from file /openlane/designs/axi2uart_bridge_top/runs/manual/results/routed.def.
+This action cannot be undone.
+DEF read, Line 436 (Warning): Character in instance name converted to underscore.
+DEF read, Line 437 (Warning): Character in instance name converted to underscore.
+DEF read, Line 437 (Warning): Character in instance name converted to underscore.
+DEF read, Line 438 (Warning): Character in instance name converted to underscore.
+DEF read, Line 438 (Warning): Character in instance name converted to underscore.
+DEF read, Line 439 (Warning): Character in instance name converted to underscore.
+DEF read, Line 439 (Warning): Character in instance name converted to underscore.
+DEF read, Line 440 (Warning): Character in instance name converted to underscore.
+DEF read, Line 440 (Warning): Character in instance name converted to underscore.
+DEF read, Line 441 (Warning): Character in instance name converted to underscore.
+DEF read, Line 441 (Warning): Character in instance name converted to underscore.
+DEF read, Line 442 (Warning): Character in instance name converted to underscore.
+DEF read, Line 442 (Warning): Character in instance name converted to underscore.
+DEF read, Line 443 (Warning): Character in instance name converted to underscore.
+DEF read, Line 443 (Warning): Character in instance name converted to underscore.
+DEF read, Line 444 (Warning): Character in instance name converted to underscore.
+DEF read, Line 444 (Warning): Character in instance name converted to underscore.
+DEF read, Line 445 (Warning): Character in instance name converted to underscore.
+DEF read, Line 445 (Warning): Character in instance name converted to underscore.
+DEF read, Line 446 (Warning): Character in instance name converted to underscore.
+DEF read, Line 446 (Warning): Character in instance name converted to underscore.
+DEF read, Line 447 (Warning): Character in instance name converted to underscore.
+DEF read, Line 447 (Warning): Character in instance name converted to underscore.
+DEF read, Line 448 (Warning): Character in instance name converted to underscore.
+DEF read, Line 448 (Warning): Character in instance name converted to underscore.
+DEF read, Line 449 (Warning): Character in instance name converted to underscore.
+DEF read, Line 449 (Warning): Character in instance name converted to underscore.
+DEF read, Line 450 (Warning): Character in instance name converted to underscore.
+DEF read, Line 450 (Warning): Character in instance name converted to underscore.
+DEF read, Line 451 (Warning): Character in instance name converted to underscore.
+DEF read, Line 451 (Warning): Character in instance name converted to underscore.
+DEF read, Line 452 (Warning): Character in instance name converted to underscore.
+DEF read, Line 452 (Warning): Character in instance name converted to underscore.
+DEF read, Line 453 (Warning): Character in instance name converted to underscore.
+DEF read, Line 453 (Warning): Character in instance name converted to underscore.
+DEF read, Line 454 (Warning): Character in instance name converted to underscore.
+DEF read, Line 454 (Warning): Character in instance name converted to underscore.
+DEF read, Line 455 (Warning): Character in instance name converted to underscore.
+DEF read, Line 455 (Warning): Character in instance name converted to underscore.
+DEF read, Line 456 (Warning): Character in instance name converted to underscore.
+DEF read, Line 456 (Warning): Character in instance name converted to underscore.
+DEF read, Line 457 (Warning): Character in instance name converted to underscore.
+DEF read, Line 457 (Warning): Character in instance name converted to underscore.
+DEF read, Line 458 (Warning): Character in instance name converted to underscore.
+DEF read, Line 458 (Warning): Character in instance name converted to underscore.
+DEF read, Line 459 (Warning): Character in instance name converted to underscore.
+DEF read, Line 459 (Warning): Character in instance name converted to underscore.
+DEF read, Line 460 (Warning): Character in instance name converted to underscore.
+DEF read, Line 460 (Warning): Character in instance name converted to underscore.
+DEF read, Line 461 (Warning): Character in instance name converted to underscore.
+DEF read, Line 461 (Warning): Character in instance name converted to underscore.
+DEF read, Line 462 (Warning): Character in instance name converted to underscore.
+DEF read, Line 462 (Warning): Character in instance name converted to underscore.
+DEF read, Line 463 (Warning): Character in instance name converted to underscore.
+DEF read, Line 463 (Warning): Character in instance name converted to underscore.
+DEF read, Line 464 (Warning): Character in instance name converted to underscore.
+DEF read, Line 464 (Warning): Character in instance name converted to underscore.
+DEF read, Line 465 (Warning): Character in instance name converted to underscore.
+DEF read, Line 465 (Warning): Character in instance name converted to underscore.
+DEF read, Line 466 (Warning): Character in instance name converted to underscore.
+DEF read, Line 466 (Warning): Character in instance name converted to underscore.
+DEF read, Line 467 (Warning): Character in instance name converted to underscore.
+DEF read, Line 467 (Warning): Character in instance name converted to underscore.
+DEF read, Line 468 (Warning): Character in instance name converted to underscore.
+DEF read, Line 468 (Warning): Character in instance name converted to underscore.
+DEF read, Line 469 (Warning): Character in instance name converted to underscore.
+DEF read, Line 469 (Warning): Character in instance name converted to underscore.
+DEF read, Line 470 (Warning): Character in instance name converted to underscore.
+DEF read, Line 470 (Warning): Character in instance name converted to underscore.
+DEF read, Line 471 (Warning): Character in instance name converted to underscore.
+DEF read, Line 471 (Warning): Character in instance name converted to underscore.
+DEF read, Line 472 (Warning): Character in instance name converted to underscore.
+DEF read, Line 472 (Warning): Character in instance name converted to underscore.
+DEF read, Line 473 (Warning): Character in instance name converted to underscore.
+DEF read, Line 473 (Warning): Character in instance name converted to underscore.
+DEF read, Line 474 (Warning): Character in instance name converted to underscore.
+DEF read, Line 474 (Warning): Character in instance name converted to underscore.
+DEF read, Line 475 (Warning): Character in instance name converted to underscore.
+DEF read, Line 475 (Warning): Character in instance name converted to underscore.
+DEF read, Line 476 (Warning): Character in instance name converted to underscore.
+DEF read, Line 476 (Warning): Character in instance name converted to underscore.
+DEF read, Line 477 (Warning): Character in instance name converted to underscore.
+DEF read, Line 477 (Warning): Character in instance name converted to underscore.
+DEF read, Line 478 (Warning): Character in instance name converted to underscore.
+DEF read, Line 478 (Warning): Character in instance name converted to underscore.
+DEF read, Line 479 (Warning): Character in instance name converted to underscore.
+DEF read, Line 479 (Warning): Character in instance name converted to underscore.
+DEF read, Line 480 (Warning): Character in instance name converted to underscore.
+DEF read, Line 480 (Warning): Character in instance name converted to underscore.
+DEF read, Line 481 (Warning): Character in instance name converted to underscore.
+DEF read, Line 481 (Warning): Character in instance name converted to underscore.
+DEF read, Line 482 (Warning): Character in instance name converted to underscore.
+DEF read, Line 482 (Warning): Character in instance name converted to underscore.
+DEF read, Line 483 (Warning): Character in instance name converted to underscore.
+DEF read, Line 483 (Warning): Character in instance name converted to underscore.
+DEF read, Line 484 (Warning): Character in instance name converted to underscore.
+DEF read, Line 484 (Warning): Character in instance name converted to underscore.
+DEF read, Line 485 (Warning): Character in instance name converted to underscore.
+DEF read, Line 485 (Warning): Character in instance name converted to underscore.
+DEF read, Line 486 (Warning): Character in instance name converted to underscore.
+DEF read:  Further warnings will not be reported.
+  Processed 1026 subcell instances total.
+  Processed 53 pins total.
+  Processed 2 special nets total.
+DEF read, Line 1761 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1762 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1766 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1767 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1768 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1769 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1773 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1774 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1775 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1776 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1780 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1781 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1782 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1783 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1786 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1787 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1791 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1792 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1793 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1794 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1798 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1799 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1800 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1801 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1805 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1806 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1810 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1811 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1812 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1813 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1817 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1818 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1824 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1825 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1826 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1827 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1830 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1831 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1835 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1836 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1837 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1838 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1862 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1863 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1864 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1865 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1866 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1867 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1868 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1869 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1870 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1871 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1872 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1873 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1874 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1875 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1876 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1877 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1878 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1879 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1880 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1881 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1882 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1883 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1884 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1936 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1937 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1938 (Error): Via name "M2M3_PR" unknown in route.
+DEF read, Line 1939 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1940 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1941 (Error): Via name "M2M3_PR" unknown in route.
+DEF read, Line 1942 (Error): Via name "M3M4_PR" unknown in route.
+DEF read, Line 1943 (Error): Via name "M3M4_PR" unknown in route.
+DEF read, Line 1944 (Error): Via name "M2M3_PR" unknown in route.
+DEF read, Line 1945 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1946 (Error): Via name "M2M3_PR" unknown in route.
+DEF read, Line 1947 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1948 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1949 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1950 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1951 (Error): Via name "M2M3_PR" unknown in route.
+DEF read, Line 1952 (Error): Via name "M3M4_PR" unknown in route.
+DEF read, Line 1953 (Error): Via name "M3M4_PR" unknown in route.
+DEF read, Line 1954 (Error): Via name "M2M3_PR" unknown in route.
+DEF read, Line 1955 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1956 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1957 (Error): Via name "M2M3_PR" unknown in route.
+DEF read, Line 1958 (Error): Via name "M2M3_PR" unknown in route.
+DEF read, Line 1959 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1960 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1961 (Error): Via name "M3M4_PR" unknown in route.
+DEF read, Line 1962 (Error): Via name "M2M3_PR" unknown in route.
+DEF read, Line 1963 (Error): Via name "M3M4_PR" unknown in route.
+DEF read, Line 1964 (Error): Via name "M2M3_PR" unknown in route.
+DEF read, Line 1965 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1966 (Error): Via name "M1M2_PR" unknown in route.
+DEF read, Line 1967 (Error): Via name "M2M3_PR" unknown in route.
+DEF read, Line 1968 (Error): Via name "M3M4_PR" unknown in route.
+DEF read, Line 1969 (Error): Via name "L1M1_PR_MR" unknown in route.
+DEF read, Line 1970 (Error): Via name "M1M2_PR" unknown in route.
+DEF Read:  Further errors will not be reported.
+  Processed 764 nets total.
+DEF read: Processed 13695 lines.
+DEF Read: encountered 5568 errors total.
+DEF Read: encountered 1068 warnings total.
+catchall isn't a valid drc option.
+DRC commands have the form ":drc [list|listall] option", where option is one of:
+    catchup                run checker and wait for it to complete
+    check                  recheck area under box in all cells
+    count [total]          count error tiles in each cell under box
+    euclidean on|off	enable/disable Euclidean geometry checking
+    find [nth]     	locate next (or nth) error in the layout
+    help                   print this help information
+    ignore	[<text>|none]   do not report on rules with this text
+    off                    turn off background checker
+    on                     reenable background checker
+    status			report if the drc checker is on or off
+    style			set the DRC style
+    printrules [file]      print out design rules in file or on tty
+    rulestats              print out stats about design rule database
+    statistics             print out statistics gathered by checker
+    why                    print out reasons for errors under box
+Total DRC errors found: 0
+   Generating output for cell sky130_fd_sc_hd__decap_3
+   Generating output for cell sky130_fd_sc_hd__tapvpwrvgnd_1
+   Generating output for cell sky130_fd_sc_hd__dfxtp_1
+   Generating output for cell sky130_fd_sc_hd__mux2_1
+   Generating output for cell sky130_fd_sc_hd__nor2_1
+   Generating output for cell sky130_fd_sc_hd__a21oi_1
+   Generating output for cell sky130_fd_sc_hd__mux4_2
+   Generating output for cell sky130_fd_sc_hd__dfrtp_1
+   Generating output for cell sky130_fd_sc_hd__or4_1
+   Generating output for cell sky130_fd_sc_hd__nor3_1
+   Generating output for cell sky130_fd_sc_hd__nand4_1
+   Generating output for cell sky130_fd_sc_hd__nor4_1
+   Generating output for cell sky130_fd_sc_hd__or3_1
+   Generating output for cell sky130_fd_sc_hd__and2_0
+   Generating output for cell sky130_fd_sc_hd__a21o_1
+   Generating output for cell sky130_fd_sc_hd__clkbuf_8
+   Generating output for cell sky130_fd_sc_hd__clkbuf_16
+   Generating output for cell sky130_fd_sc_hd__xnor2_1
+   Generating output for cell sky130_fd_sc_hd__xor2_1
+   Generating output for cell sky130_fd_sc_hd__clkinv_1
+   Generating output for cell sky130_fd_sc_hd__nand3_1
+   Generating output for cell sky130_fd_sc_hd__o21ai_0
+   Generating output for cell sky130_fd_sc_hd__nand2_1
+   Generating output for cell sky130_fd_sc_hd__o21a_1
+   Generating output for cell sky130_fd_sc_hd__nor3b_1
+   Generating output for cell sky130_fd_sc_hd__o22ai_1
+   Generating output for cell sky130_fd_sc_hd__a211oi_1
+   Generating output for cell sky130_fd_sc_hd__o31ai_1
+   Generating output for cell sky130_fd_sc_hd__o311a_1
+   Generating output for cell sky130_fd_sc_hd__lpflow_isobufsrc_1
+   Generating output for cell sky130_fd_sc_hd__o211ai_1
+   Generating output for cell sky130_fd_sc_hd__a31oi_1
+   Generating output for cell sky130_fd_sc_hd__nand3b_1
+   Generating output for cell sky130_fd_sc_hd__nand2b_1
+   Generating output for cell sky130_fd_sc_hd__dfstp_2
+   Generating output for cell sky130_fd_sc_hd__a22o_1
+   Generating output for cell sky130_fd_sc_hd__buf_16
+   Generating output for cell sky130_fd_sc_hd__nor4b_1
+   Generating output for cell sky130_fd_sc_hd__xnor3_1
+   Generating output for cell sky130_fd_sc_hd__dfrtp_4
+   Generating output for cell sky130_fd_sc_hd__and4b_1
+   Generating output for cell sky130_fd_sc_hd__nand4b_1
+   Generating output for cell sky130_fd_sc_hd__and3_1
+   Generating output for cell sky130_fd_sc_hd__a22oi_1
+   Generating output for cell sky130_fd_sc_hd__nor2b_1
+   Generating output for cell sky130_fd_sc_hd__a32o_1
+   Generating output for cell sky130_fd_sc_hd__a221oi_1
+   Generating output for cell sky130_fd_sc_hd__or3b_1
+   Generating output for cell sky130_fd_sc_hd__a31o_1
+   Generating output for cell axi2uart_bridge_top
+==============================
+ GDS WRITTEN SUCCESSFULLY!
+==============================
