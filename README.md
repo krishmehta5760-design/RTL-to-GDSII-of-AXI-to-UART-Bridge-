@@ -33,9 +33,9 @@ The design was hardened using the OpenLane v1 flow.
 | **LVS Errors** | **0** (Clean) ✅ |
 | **Routing / Antenna Violations** | **0** ✅ |
 | **Timing (WNS)** | **0.0 ns** (Timing Met) ✅ |
-| **Final Cell Count** | 718 cells |
-| **Chip Area** | 12,050 µm² (0.047 mm²) |
-| **Core Utilization** | 35.5% |
+| **Final Cell Count** | 685 cells |
+| **Chip Area** | 10,133.5 µm² |
+| **Core Utilization** | 65% |
 
 ## 🧪 Simulation & Verification
 
