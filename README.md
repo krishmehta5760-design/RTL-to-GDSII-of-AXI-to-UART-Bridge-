@@ -23,6 +23,9 @@ The system consists of three main modules:
 
 This design was laid out on the **SkyWater 130nm (sky130_fd_sc_hd)** standard cell library. The physical design was scripted manually via custom TCL scripts (`pnr.tcl`) to interact directly with the OpenROAD toolchain.
 
+<img width="788" height="794" alt="image" src="https://github.com/user-attachments/assets/4530f627-85bd-4f1e-8c3c-17c910458883" />
+
+
 ### Flow Highlights:
 * **Synthesis (Yosys):** Mapped abstract Verilog logic (flip-flops, combinational gates) to the physical Sky130 standard cells.
 * **Floorplanning:** Optimized the core to a **65% utilization**. Lower utilizations (e.g., 30%) caused the placement engine to cluster cells to minimize wirelength, resulting in a lopsided layout. 65% provided a beautifully balanced placement.
@@ -40,7 +43,6 @@ This design was laid out on the **SkyWater 130nm (sky130_fd_sc_hd)** standard ce
 | **Technology Node** | SkyWater 130nm (`sky130A`) |
 | **Die Area** | 10,133.5 µm² |
 | **Core Utilization** | 65.0 % |
-| **Placement Density** | 0.70 |
 | **Worst Negative Slack (WNS)** | +0.00 ns (Timing Clean) |
 | **DRC Violations** | 0 |
 | **LVS Status** | Clean |
