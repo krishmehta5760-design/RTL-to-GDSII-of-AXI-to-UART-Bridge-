@@ -5,7 +5,7 @@ read_verilog /openlane/designs/axi2uart_bridge_top/runs/manual/results/synth.v
 link_design axi2uart_bridge_top
 read_sdc /openlane/designs/axi2uart_bridge_top/constraints/axi2uart_bridge.sdc
 
-initialize_floorplan -utilization 60 -aspect_ratio 1.0 -core_space {5 5 5 5} -site unithd
+initialize_floorplan -utilization 65 -aspect_ratio 1.0 -core_space {5 5 5 5} -site unithd
 make_tracks
 place_pins -hor_layers met3 -ver_layers met2
 
